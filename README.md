@@ -48,9 +48,10 @@ php artisan key:generate
 
 ```bash
 touch database/database.sqlite
+php artisan migrate
 ```
 
-### Activate debug mode (optional)
+### 5.Activate debug mode (optional)
 
 In `laravel-app/.env`, change APP_DEBUG to true
 
@@ -58,7 +59,7 @@ In `laravel-app/.env`, change APP_DEBUG to true
 APP_DEBUG=true
 ```
 
-### Start local service
+### 6.Start local service
 
 ```bash
 php artisan serve
